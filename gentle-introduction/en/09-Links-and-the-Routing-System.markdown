@@ -147,7 +147,7 @@ There is no script name in the examples of generated URLs either. This is becaus
 Listing 9-5 - Showing the Front Controller Name in URLs, in `apps/frontend/config/settings.yml`
 
     prod:
-      .settings
+      .settings:
         no_script_name:  false
 
 Now, the generated URLs will look like this:
